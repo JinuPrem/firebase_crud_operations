@@ -188,7 +188,7 @@ class _HomePageState extends State<HomePage> {
                     );
                   });
             }
-            return const CircularProgressIndicator();
+            return const Center(child: CircularProgressIndicator());
           }),
     );
   }
